@@ -13,11 +13,10 @@ public class Application {
             }
         }
 
-        for (Figure figure : figures) {
+        for (Drawable figure : figures) {
             figure.draw();
             System.out.println("\n");
         }
-
     }
 
 }

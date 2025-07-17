@@ -10,4 +10,5 @@ public abstract class Figure implements Drawable, Calculatable {
     public String getColor() {
         return color;
     }
+
 }

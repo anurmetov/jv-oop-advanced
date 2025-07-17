@@ -20,4 +20,5 @@ public class Square extends Figure {
                 + "Side length/width: " + side + ", "
                 + "Area of Square: " + getArea());
     }
+
 }
