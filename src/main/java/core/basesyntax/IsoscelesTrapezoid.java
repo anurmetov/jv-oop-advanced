@@ -23,6 +23,6 @@ public class IsoscelesTrapezoid extends Figure {
                 + "Color: " + getColor() + ", "
                 + "First Base: " + base1 + ", "
                 + "Second Base:" + base2 + ", "
-                + "Area of IsoscelesTrapezoid: " + getArea());
+                + "Area of IsoscelesTrapezoid: " + getArea() + "\n");
     }
 }

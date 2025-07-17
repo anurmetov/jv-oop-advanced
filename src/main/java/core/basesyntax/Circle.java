@@ -19,6 +19,6 @@ public class Circle extends Figure {
         System.out.println("Circle information: " + "\n"
                     + "Color: " + getColor() + ", "
                     + "Radius: " + radius + ", "
-                    + "Area of circle: " + getArea());
+                    + "Area of circle: " + getArea() + "\n");
     }
 }

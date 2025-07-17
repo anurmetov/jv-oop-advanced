@@ -21,6 +21,6 @@ public class RightTriangle extends Figure {
                 + "Color: " + getColor() + ", "
                 + "Base: " + base + ", "
                 + "Height: " + height + ", "
-                + "Area of RightTriangle: " + getArea());
+                + "Area of RightTriangle: " + getArea() + "\n");
     }
 }

@@ -8,14 +8,11 @@ public class Application {
         for (int i = 0; i < figures.length; i++) {
             if (i < figures.length / 2) {
                 figures[i] = figureSupplier.getRandomFigure();
+                figures[i].draw();
             } else {
                 figures[i] = figureSupplier.getDefaultFigure();
+                figures[i].draw();
             }
-        }
-
-        for (Drawable figure : figures) {
-            figure.draw();
-            System.out.println("\n");
         }
     }
 

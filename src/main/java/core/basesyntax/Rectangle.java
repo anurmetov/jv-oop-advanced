@@ -21,6 +21,6 @@ public class Rectangle extends Figure {
                 + "Color: " + getColor() + ", "
                 + "Length: " + length + ", "
                 + "Width:" + width + ", "
-                + "Area of rectangle: " + getArea());
+                + "Area of rectangle: " + getArea() + "\n");
     }
 }
