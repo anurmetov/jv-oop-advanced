@@ -9,6 +9,7 @@ public class FigureSupplier {
     private static final int MAX_LENGTH_BASE = 20;
     private static final int MAX_LENGTH_HEIGHT = 20;
     private static final int MAX_RADIUS = 25;
+    private static final int DEFAULT_RADIUS = 10;
 
     private final Random random = new Random();
     private final ColorSupplier colorSupplier = new ColorSupplier();
@@ -42,6 +43,6 @@ public class FigureSupplier {
     }
 
     public Figure getDefaultFigure() {
-        return new Circle(Color.WHITE.name(), 10);
+        return new Circle(Color.WHITE.name(), DEFAULT_RADIUS);
     }
 }
